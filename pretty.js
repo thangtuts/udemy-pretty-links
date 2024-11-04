@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name         Udemy Extractor All links on My Courses
+// @namespace    http://tampermonkey.net/
+// @version      2024-11-04
+// @description  convert pretty link on your list
+// @author       https://github.com/thangtuts
+// @match        https://www.udemy.com/home/my-courses/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=udemy.com
+// @grant        none
+// ==/UserScript==
+
 (async function() {
     'use strict';
 
