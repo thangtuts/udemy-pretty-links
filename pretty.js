@@ -1,6 +1,8 @@
 (async function() {
     'use strict';
 
+    console.log("Pretty script running...");
+
     function waitForElement(selector) {
         return new Promise((resolve) => {
             const element = document.querySelector(selector);
